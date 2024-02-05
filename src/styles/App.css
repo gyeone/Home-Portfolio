@@ -1,24 +1,3 @@
-.navbar {
-  display: flex;
-  background-color:#C7DCF3;
-  justify-content: space-between;
-  height: 80px;
-}
-.navbar-menu {
-  display: flex;
-  list-style: none;
-}
-.navbar-menu li{
-  margin: 27px 30px;
-}
-.navbar-menu a {
-  color:#FB525C;
-}
-.navbar-logo {
-  margin-top: 5px;
-  margin-left: 20px;
-  color: #fff;
-}
 .home-title {
   text-align: center;
 }
@@ -46,13 +25,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

@@ -1,6 +1,6 @@
 function Project() {
     return(
-        <p>프로젝트</p>
+        <p>모바일 앱 만드는 중입니다.</p>
     ) 
 
 }
