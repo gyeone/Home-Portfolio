@@ -9,6 +9,30 @@
     list-style: none;
     text-align: center;
   }
+  .navbar-menu a.active {
+    color: #FB525C;  /* a태그가 활성화되면 색깔이 바뀜 */
+  }
+  .navbar-menu a {
+    text-decoration-line: none;  /* a태그 밑줄 제거 */
+  }
+  .navbar-menu-home-text, .navbar-menu-learning-text, .navbar-menu-project-text, .navbar-menu-contact-text {
+    opacity: 0; /* 불투명도를 0으로 줌으로써 투명하게 함*/
+  }
+
+   /* 불투명도를 1로 줌으로써 불투명하게 함*/
+  .navbar-menu-home:hover .navbar-menu-home-text {
+    opacity: 1;
+  }
+  .navbar-menu-learning:hover .navbar-menu-learning-text {
+    opacity: 1;
+  }
+  .navbar-menu-project:hover .navbar-menu-project-text {
+    opacity: 1;
+  }
+  .navbar-menu-contact:hover .navbar-menu-contact-text {
+    opacity: 1;
+  }
+
   .navbar-menu-home {
     margin:20px 30px;
   }
@@ -26,7 +50,7 @@
     margin-block-end: 0px;
   }
   .navbar-menu a {
-    color:#FB525C;
+    color:#050204;
   }
   .navbar-logo {
     margin-top: 5px;

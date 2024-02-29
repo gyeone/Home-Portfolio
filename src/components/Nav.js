@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import '../styles/Nav.css';
 import { IoHomeSharp } from "react-icons/io5";
 import { FaPencilAlt } from "react-icons/fa";
@@ -14,23 +14,23 @@ return(
         </div>
       <div className="navbar-menu">
           <div className='navbar-menu-home'>
-            <li><Link to = '/'><h2><IoHomeSharp /></h2></Link></li>
-             <li><Link to = '/'>home</Link></li>
+            <li><NavLink to = '/'><h2><IoHomeSharp /></h2></NavLink></li>
+             <li><div className='navbar-menu-home-text'><NavLink to = '/'>home</NavLink></div></li>
           </div>
 
            <div className='navbar-menu-learning'>
-            <li><Link to= '/learning'><h2><FaPencilAlt /></h2></Link></li>
-             <li><Link to= '/learning'>learning</Link></li>
+            <li><NavLink to= '/learning'><h2><FaPencilAlt /></h2></NavLink></li>
+             <li><div className='navbar-menu-learning-text'><NavLink to= '/learning'>learning</NavLink></div></li>
           </div>
 
           <div className='navbar-menu-project'>
-            <li><Link to= '/project'><h2><MdFactCheck /></h2></Link></li>
-             <li><Link to= '/project'>Project</Link></li>  
+            <li><NavLink to= '/project'><h2><MdFactCheck /></h2></NavLink></li>
+             <li><div className='navbar-menu-project-text'><NavLink to= '/project'>Project</NavLink></div></li>  
           </div>
 
           <div className='navbar-menu-contact'>
-            <li><Link to= '/contact'><h2><IoMdContact /></h2></Link></li>
-             <li><Link to= '/contact'>contact</Link></li>
+            <li><NavLink to= '/contact'><h2><IoMdContact /></h2></NavLink></li>
+             <li><div className='navbar-menu-contact-text'><NavLink to= '/contact'>contact</NavLink></div></li>
           </div>
 
       </div>

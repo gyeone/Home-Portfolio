@@ -1,0 +1,23 @@
+.learning-develop{
+    margin: 50px 50px 50px 50px
+}
+
+.learning-design{
+    margin: 50px 50px 50px 50px
+}
+
+.learning-develop-detail{
+    display: flex;
+    margin: 100px 70px 150px 70px;
+    justify-content:space-between;
+}
+.learning-devlip-detail-html {
+    width:250px;
+    height:100px;
+}
+
+.learning-design-detail{
+    display: flex;
+    margin: 180px 70px 70px 70px;
+    justify-content:space-between;
+}
