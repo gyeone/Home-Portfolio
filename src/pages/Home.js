@@ -7,6 +7,8 @@ import { MdEmail } from "react-icons/md";
 
 
 function Home() {
+
+
     return(
         <>
         <div className="home-title">
@@ -21,6 +23,28 @@ function Home() {
             <div className='home-userinfo-address'><FaLocationDot /><b>Address</b> : 경남 양산시</div>
             <div className='home-userinfo-github'><IoLogoGithub /><b>GitHub</b> : gyeone</div>
             <div className='home-userinfo-email'><MdEmail /><b>E-mail</b> : gyeone@fecsen.com</div>
+        </div>
+
+        <div id='guest-book'>
+            <div className='guest-book-title'>
+            <h2>☆.｡･:･ﾟ:* Guest Book *:･ﾟ:･｡.☆</h2>
+            </div>
+            <div className='guest-form'>
+                <div className='division'/>
+                <p>Name: <input></input></p>               
+                <div className='division'/>
+                <p>Contents: <input></input></p>      
+                <div className='division'/>
+            </div>
+
+            <div className='guest-button'>
+                <button onClick={()=>alert('방명록이 등록되었습니다. (◍ ´꒳` ◍)b')}>write</button> {/* alert만 사용하면 렌더링 될 때 작동이되어서 콜백함수를 넣음으로써 버튼 클릭 시 작동 되게 함 */}
+            </div>
+
+            <div className='guest-view'>
+
+            </div>
+            
         </div>
         </>
     ) 

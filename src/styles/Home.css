@@ -11,13 +11,33 @@
 }
 
 .home-userinfo-name, .home-userinfo-birth, .home-userinfo-address, .home-userinfo-github, .home-userinfo-email {
-  background-color: #C7DCF3;
+  border-bottom: 3px solid #C7DCF3 ;
     width: fit-content;
     margin: 10px 0px 0px 0px;
-    border-radius: 45%;
     padding: 5px 20px 5px 20px;
 }
 
+#guest-book {
+  margin: 0 auto;
+  width: 380px;
+  padding: 140px;
+  animation: fadein 1.5s;
+}
+
+.guest-book-title {
+  text-align: center;
+  padding: 10px;
+}
+.division {
+  width: 380px;
+  height: 1px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.guest-button {
+  text-align: right;
+}
 
 @keyframes fadein { 
   from {

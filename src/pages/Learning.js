@@ -3,14 +3,13 @@ import { CircularProgressBar } from "@tomickigrzegorz/react-circular-progress-ba
 
 
 
-
 function Learning() {
     return(
         <>
         <div className='learning-develop'> 
             <h1><b>Develop Tech</b></h1>
                 <div className='learning-develop-detail'>
-                    <div className='learning-devlip-detail-html' style={{position: 'relative'}}>
+                    <div className='learning-develop-detail-html' style={{position: 'relative'}}>
                         <CircularProgressBar
                             colorCircle="#dadada"
                             colorSlice="#E44D26"
@@ -28,7 +27,7 @@ function Learning() {
                                 </div>
                         </CircularProgressBar>
                     </div>
-                    <div className='learning-devlip-detail-css' style={{position: 'relative'}}>
+                    <div className='learning-develop-detail-css' style={{position: 'relative'}}>
                         <CircularProgressBar
                             colorCircle="#dadada"
                             colorSlice="#1572B6"
@@ -46,7 +45,7 @@ function Learning() {
                         </CircularProgressBar>
                     </div>
                    
-                    <div className='learning-devlip-detail-js' style={{position: 'relative'}}>
+                    <div className='learning-develop-detail-js' style={{position: 'relative'}}>
                         <CircularProgressBar
                             colorCircle="#dadada"
                             colorSlice="#E4A126"
@@ -66,7 +65,7 @@ function Learning() {
                         </CircularProgressBar>
                     </div>
 
-                    <div className='learning-devlip-detail-react' style={{position: 'relative'}}>
+                    <div className='learning-develop-detail-react' style={{position: 'relative'}}>
                         <CircularProgressBar
                             colorCircle="#dadada"
                             colorSlice="#61DAFB"
@@ -90,7 +89,7 @@ function Learning() {
         <div className='learning-design'>
         <h1><b>Design Tech</b></h1>
                 <div className='learning-develop-detail'>
-                <div className='learning-devlip-detail-figma' style={{position: 'relative'}}>
+                <div className='learning-develop-detail-figma' style={{position: 'relative'}}>
                         <CircularProgressBar
                             colorCircle="#dadada"
                             colorSlice="#A259FF"

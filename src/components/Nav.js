@@ -12,8 +12,8 @@ return(
         <div className="navbar-logo">
             <h2>gi yeon's portfolio</h2>
         </div>
-      <div className="navbar-menu">
-          <div className='navbar-menu-home'>
+      <div className="navbar-menu">  {/* Link태그는 스타일 주기어려움, NavLink 로 바꾸어 css를 이용해 간단하게 스타일을 줌 */}
+          <div className='navbar-menu-home'> 
             <li><NavLink to = '/'><h2><IoHomeSharp /></h2></NavLink></li>
              <li><div className='navbar-menu-home-text'><NavLink to = '/'>home</NavLink></div></li>
           </div>
