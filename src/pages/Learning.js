@@ -2,7 +2,7 @@ import '../styles/Learning.css';
 import { CircularProgressBar } from "@tomickigrzegorz/react-circular-progress-bar";
 
 
-const html_percentage = 60;
+
 
 function Learning() {
     return(
