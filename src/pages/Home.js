@@ -31,14 +31,14 @@ function Home() {
             </div>
             <div className='guest-form'>
                 <div className='division'/>
-                <p>Name: <input></input></p>               
+                <p><input id='namebox' type='text' placeholder='Name'/></p>  {/* placeholder(가상요소에 속함) : input 안에 힌트주기 */}         
                 <div className='division'/>
-                <p>Contents: <input></input></p>      
+                <p><textarea id='contentsbox' type='text' placeholder='Contents'/></p>      
                 <div className='division'/>
             </div>
 
             <div className='guest-button'>
-                <button onClick={()=>alert('방명록이 등록되었습니다. (◍ ´꒳` ◍)b')}>write</button> {/* alert만 사용하면 렌더링 될 때 작동이되어서 콜백함수를 넣음으로써 버튼 클릭 시 작동 되게 함 */}
+                <button onClick={()=>alert('방명록이 등록되었습니다. ପ( •̤ᴗ•̤ )੭⁾⁾.｡.:✽・ﾟ＋')}>write</button> {/* alert만 사용하면 렌더링 될 때 작동이되어서 콜백함수를 넣음으로써 버튼 클릭 시 작동 되게 함 */}
             </div>
 
             <div className='guest-view'>

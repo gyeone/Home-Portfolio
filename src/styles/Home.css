@@ -24,10 +24,53 @@
   animation: fadein 1.5s;
 }
 
+#namebox{
+  width: 380px;
+  height: 30px;
+
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #C7DCF3;
+
+  background-color: #F8F0EE;
+  
+}
+
+#namebox::placeholder /* 가상요소는 ::으로 적용해야 함*/{
+  font-size: auto;
+  font-weight: bold;
+  font-family: 'SUITE-Regular';
+
+}
+
+#contentsbox {
+  min-width: 380px;
+  max-width: 380px;
+
+  min-height: 100px;
+  max-height: 150px;
+
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #C7DCF3;
+
+  background-color: #F8F0EE;
+}
+
+#contentsbox::placeholder /* 가상요소는 ::으로 적용해야 함*/ {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'SUITE-Regular';
+
+}
+
 .guest-book-title {
   text-align: center;
   padding: 10px;
 }
+
 .division {
   width: 380px;
   height: 1px;
