@@ -1,3 +1,4 @@
+@import url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2);
 .home-title {
     text-align: center;
     margin: 30px 0px 50px;
@@ -17,7 +18,7 @@
     padding: 5px 20px 5px 20px;
 }
 
-#guest-book {
+#guestbook {
   margin: 0 auto;
   width: 380px;
   padding: 140px;
@@ -66,7 +67,7 @@
 
 }
 
-.guest-book-title {
+.guestbook-title {
   text-align: center;
   padding: 10px;
 }
@@ -75,11 +76,12 @@
   width: 380px;
   height: 1px;
   background-color: black;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 .guest-button {
   text-align: right;
+  margin-bottom: 50px;
 }
 
 @keyframes fadein { 
