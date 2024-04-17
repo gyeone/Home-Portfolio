@@ -31,7 +31,7 @@ function Learning() {
                         <CircularProgressBar
                             colorCircle="#dadada"
                             colorSlice="#1572B6"
-                            percent={20}
+                            percent={35}
                             fontColor="#050204"
                             round={true}
                             fontSize="15px"
@@ -49,7 +49,7 @@ function Learning() {
                         <CircularProgressBar
                             colorCircle="#dadada"
                             colorSlice="#E4A126"
-                            percent={10}
+                            percent={30}
                             fontColor="#050204"
                             round={true}
                             fontSize="15px"
